@@ -22,7 +22,8 @@ Key findings indicate that the 'Serviços' and 'Transferência mesma titularidad
 - Count ($n$): The total number of observations in the sample.
 - Total Amount: The result of the sum of all observations in the dataset. $$\sum_{i=1}^{n} x_i$$
 - Mean ($\bar{x}$): A measure of central tendency calculated by summing all values ($x_i$) and dividing by the total number of values ($n$). $$\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_i$$
-- Median ($Md$): The central value of the ordered dataset. 
+- Median ($Md$): The central value of the ordered dataset.
+
 $$
 \text{Median} = 
 \begin{cases}
