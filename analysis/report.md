@@ -12,7 +12,9 @@ The analysis explored spending patterns, calculating the percentage of total deb
 
 A trend analysis was performed on monthly spending. This yielded a negative slope ($-5569.75), indicating a downward trend in expenses. However, the corresponding R-squared value was very low ($R^2 = 0.158$), suggesting this trend is not strong or reliable.
 
-Key findings indicate that the 'Serviços' and 'Transferência mesma titularidade' categories show high financial variability, as measured by their high CV. No significant outliers were detected using standard statistical boundaries.
+Key findings indicate that the 'Serviços' and 'Transferência mesma titularidade' categories show high financial variability, as measured by their high CV.
+
+Outlier detection using the IQR method revealed 45 outliers, with a total amount of R$ 68,849.01. "Investimentos", "Compras", e "Transferencia - PIX" showed the most outliers. The "Transferência mesma titularidade" category exhibited significant upper outliers, creating right-skewed distribution. July had the most outliers (15, in total), while May had the highest outlier value, R$ 40,149.73.
 
 
 ### Formal Metric Definitions
