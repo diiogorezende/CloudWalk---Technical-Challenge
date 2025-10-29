@@ -4,7 +4,7 @@
 
 This analysis covers a financial dataset containing 841 observations and 17 features, spanning from April 7, 2025, to August 5, 2025.
 
-Initial data processing involved looking at features with high nullity and handling date-type features. Three features (balance, provider_code, credit_card_data) were entirely null, and the 'merchant' feature was mostly null. The 'date' column was converted to a datetime object, and new time-based features, including an 'is_debit' flag, were engineered to support the analysis.
+Initial data processing involved looking at features with high nullity and handling date-type features. Three features (balance, provider_code, credit_card_data) were entirely null, and the 'merchant' feature was mostly null. The 'date' column was converted to a datetime object, and new time-based features, were engineered to support the analysis.
 
 Descriptive statistics were calculated for transaction amounts ('amount_abs') grouped by 'category'. These metrics included count, total amount, mean, median, min/max values, standard deviation (STD), coefficient of variation (CV), and quartiles (Q1, Q3).
 
